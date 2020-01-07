@@ -1,0 +1,38 @@
+<html lang="en">
+  <head>
+    <title>Login and Registration Form</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="index.css">
+     <script src="home.js"></script>
+      
+  </head>
+  <body>
+      <div class="login-page">
+          <div class="form">
+                <form id="registration-from" class="registration-from" action="">
+                  <input type="text" placeholder="User name" id="">
+                  <input type="text" placeholder="Password" id="password">
+                 
+                  <input type="text" placeholder="Email" id="">
+                  <button onclick="checkPassword()" class="normal">Create</button>
+                  <p style="color: black;" title="i ama a tool-tip" class="message">Already Registered? <a onclick="toggleform()" href="#">Login</a></p>
+                </form>
+
+                <form id="login-form" class="login-form" action="">
+                  <input type="text" placeholder="User name" id="">
+                  <input type="text" placeholder="Password" id="">
+                  <button class="normal"  onclick="toggleform()">Login</button>
+                  <p class="message">Not Registered?<a  href="#" onclick="toggleform()"> Signup</a></p>
+                </form >
+                <p id="weakpassword"></p>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>
+         
+        </script>
+  </body>
+</html> 
