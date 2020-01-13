@@ -34,3 +34,23 @@
       weakPassowrd.innerHTML = "Password must contain a number, lowercase letter, uppercase letter";
     }
  }
+
+ function CreatUser()
+ {
+    var userName = document.getElementById("username");
+    var email = document.getElementById("email");
+    var password = document.getElementById("password");
+    var weakPassowrd = document.getElementById("weakpassword");
+   
+    if(!userName.value || !email.value || !password.value)
+    {
+      weakPassowrd.innerHTML = "All fields are required";
+      
+    }
+    else
+    {
+      checkPassword();
+    }
+
+
+ }
