@@ -21,8 +21,8 @@
           <li class="active"><a href="#">Home</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#"><span class="glyphicon glyphicon-user"></span>  Sign Up</a></li>
-          <li><a href="#"><span class="glyphicon glyphicon-user"></span>  Login</a></li>
+          <li><a href="#"><span onclick="Login()" class="glyphicon glyphicon-user"></span>  Sign Up</a></li>
+          <li><a href="#"><span onclick="Login()" class="glyphicon glyphicon-user"></span>  Login</a></li>
           <li><a href="#"><button class="openbtn" onclick="openNav()">☰</button></a></li> 
           </button>
         </ul>
@@ -49,7 +49,7 @@
       <img class="top" src="konark.png"/>
     </div>
 
-          <div class="login-page">
+          <div id="login-page" class="login-page">
               <div class="form">
                     <form id="registration-from" class="registration-from" action="">
                       <input type="text" placeholder="User name" id="username">

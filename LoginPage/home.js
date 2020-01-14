@@ -63,3 +63,11 @@ function closeNav() {
   document.getElementById("mySidebar").style.width = "0";
   document.getElementById("main").style.marginLeft = "0";
 }
+
+function Login()
+{
+  console.log("Coming Here");
+ var loginform = document.getElementById("login-page");
+ loginform.style.display = "block";
+ 
+}
