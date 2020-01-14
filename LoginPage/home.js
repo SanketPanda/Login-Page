@@ -52,5 +52,14 @@
       checkPassword();
     }
 
-
  }
+
+ function openNav() {
+  document.getElementById("mySidebar").style.width = "700px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
